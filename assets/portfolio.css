@@ -1,0 +1,126 @@
+:root {
+    --primary-color: #4756df;
+    --secondary-color: #ff7235;
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-family : "Dejavu Serif", serif;	
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+a:hover {
+    color: black;
+}
+h2 {
+    color: var(--primary-color);
+}
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 2em;
+    background-color: #fcfcfc;
+    box-shadow: 0 7px 4px rgba(1, 1, 1, 0.2);
+}
+
+nav h1 {
+    color: var(--primary-color);
+}
+
+nav ul {
+    display: flex;
+    padding: 1em;
+    gap: 3em;
+}
+
+nav ul li {
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    max-width: 60%;
+    margin: auto;
+}
+
+.hero img {
+    height: 20em;
+}
+
+.hero div {
+    width: 20em;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0px 2px 15px 2px rgba(1, 1, 1, 0.2);
+}
+
+.hero div h2, p {
+    margin: 1em;
+}
+.ITskills {
+    max-width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 8em;
+}
+.ITskills p {
+    text-align: left;
+}
+.ITskills img {
+    width: 10em;
+    padding: 1em;
+}
+.ITskills div {
+    display: block;
+    border-radius: 5px;
+    box-shadow: 0px 2px 15px 2px rgba(1, 1, 1, 0.2);
+    margin: 1em;
+}
+
+.MyProjects {
+    max-width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 5em;
+}
+
+.MyProjects h3 {
+    margin-top: 1.5em; 
+    margin-bottom: -1.5em;
+}
+
+.MyProjects ul {
+    list-style-type: square;
+}
+
+.gameproject {
+    margin-top: 3em;
+    background-color: red;
+    border-radius: 5px;
+    box-shadow: 0px 2px 15px 2px rgba(1, 1, 1, 0.2);
+}
+
+.gameproject ul{
+    margin-top: 3em;
+}
